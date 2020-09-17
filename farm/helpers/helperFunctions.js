@@ -13,6 +13,8 @@ export const createFarmStock =(farm)=> {
   }
   const animals=[];
   for (let i = 0; i < animalNumber; i++) {
+   const animalTypeFaker= faker.random.arrayElement(animalTypes);
+   console.log(`${animalType} i am coming from faker random`);
    const animalTypeIndex =Math.floor(Math.random() * (3 - 0) + 0);
    const animalType= animalTypes[animalTypeIndex];
    const animalFood = animalFoods[animalType];

@@ -37,7 +37,7 @@ function calculateGrade(marks) {
     return 'A';
 }
 
-// The array can be anything. Calculating the avarege of a bunch of numbers
+// The array can be anything. Calculating the average of a bunch of numbers
 function calculateAverage(array) {
     let sum = 0;
     for (let value of array)
